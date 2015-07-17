@@ -2,11 +2,66 @@
 
 h1 {
   font-family:ChunkFiveRegular, Georgia, serif;
+  font-style: color #FFFFFF;
 }
 
 body {
 
   font-family: Avant Garde;
-  background-image: "https://shechive.files.wordpress.com/2015/01/morning-coffee-39-photos-266.jpg?w=600&h=1063"
+  background-color: #C49231;
   padding: 10px;
 }
+#background {
+  position:fixed;
+  z-index: -50;
+}
+.boxes {
+  background-color:#6d3f32;
+  border:5px solid #666666;
+  font-family: Verdana;
+  color: #FEDD9C;
+  position: relative;
+  float: left;
+}
+
+#header{
+  position: relative;
+  left: 200px;
+  top:20px;
+  font-size: 16px;
+  text-shadow: 2px 2px black;
+}
+
+#table{
+  position: relative;
+  left: 20px;
+  top:100px;
+  font-size: 10px;
+  font-family: Antique No 14 font;
+}
+
+#console{
+  position: relative;
+  left: 100px;
+  top:350px;
+}
+
+@font-face {
+    font-family: headlineFont;
+    src: url(fonts/baskervalley_old_face.ttf) format("truetype");
+}
+h1.customfont {
+    font-family: headlineFont, Verdana, Tahoma;
+}
+
+
+/*#6d3f32 - chocolate
+#FFBF44 - gold
+
+
+#FEDD9C - cream
+
+background: #9f7f52 sandlewood
+#666666 gray
+#dddddd - light gray
+#C49231*/ dark gold

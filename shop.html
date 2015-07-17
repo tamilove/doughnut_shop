@@ -3,22 +3,33 @@
 <html>
   <head>
     <title>Bottom Pan</title>
-    <link href="css/styles.css" type="text/css"rel="styles.css"/>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
   </head>
   <body>
-    <h1>Bottom Pan Doughnut Shop</h1>
-    <table>
-      <thead></thead>
-      <tbody id="locations_table">
-        <tr id="doughnut_table"></tr>
-      </tbody>
-    </table>
+    <img id="background" src="images/background.jpg">
+
+    <div id="header" class="boxes">
+    <h1 class="customfont">The Nautical Doughnut and Coffee Shoppe</h1>
+  </div>
+
+    <div id="table" class="boxes">
+      <table>
+        <thead></thead>
+        <tbody id="locations_table">
+          <tr id="doughnut_table"></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div id="console" class="boxes"
     <h3>Add New A Location</h3>
     <p>Location Name:<input id="name"></input></p>
     <p>Minimum Customers Per Hour:<input id="min"></input></p>
     <p>Maximum Customers Per Hour:<input id="max"></input></p>
     <p>Average Donuts Purchased Per Customer:<input id="average"></input></p>
     <button id="save">Save</button>
+  </div>
+
     <script type="text/javascript" src="shop.js"></script>
-  </body>
+ </body>
 </html>

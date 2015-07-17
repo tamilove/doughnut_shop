@@ -1,3 +1,26 @@
+I would cordially like to thank the following sigtes for unknowing allowing me to steel some ideas for this assignement that won't be seen outside of Code Fellows:
+
+ http://brassgoggles.co.uk/forum/
+http://haltenny.deviantart.com/art/Steampunk-Doughnut-Machine-202423480
+http://www.fontspace.com/bosil-unique-fonts/bu-oscar-diggs
+
+colours: #6d3f32
+#FFBF44
+#723612
+#8B4217
+#FEDD9C
+#6d3f32
+background: #9f7f52
+#666666
+#dddddd
+#C49231
+
+verdana, sans-serif;
+
+
+
+
+
 # doughnut_shop
 Doughnut shop assignment for Code Fellows B-31 Boot Camp
 I am adding some CSS now to my Bottom Pan Doughnut chain. I am adding a new file which is just for CSS. 
