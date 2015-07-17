@@ -1,32 +1,23 @@
+
 <!DOCTYPE html>
 <html>
- <head>
-  <meta charset="UTF-8">
-  <title>Doughnut Shops in Seattle</title>
- </head>
-
- <body>
-  <section id="content">
-  </section>
-  <table id="doughnut_table">
-    <th>Shops</th>
-    <th>7 am</th>
-    <th>8 am</th>
-    <th>9 am</th>
-    <th>10 am</th>
-    <th>11 am</th>
-    <th>12 pm</th>
-    <th>1 pm</th>
-    <th>2 pm</th>
-    <th>3 pm</th>
-    <th>4 pm</th>
-    <th>5 pm</th>
-    <th>6 pm</th>
-    <th>Total</th>
-  </table>
-
-<script src='shop.js'>
-</script>
- </body>
-
+  <head>
+    <title>Bottom Pan</title>
+  </head>
+  <body>
+    <h1>Bottom Pan Doughnut Shop</h1>
+    <table>
+      <thead></thead>
+      <tbody id="locations_table">
+        <tr id="doughnut_table"></tr>
+      </tbody>
+    </table>
+    <h3>Add New A Location</h3>
+    <p>Location Name:<input id="name"></input></p>
+    <p>Minimum Customers Per Hour:<input id="min"></input></p>
+    <p>Maximum Customers Per Hour:<input id="max"></input></p>
+    <p>Average Donuts Purchased Per Customer:<input id="average"></input></p>
+    <button id="save">Save</button>
+    <script type="text/javascript" src="shop.js"></script>
+  </body>
 </html>
