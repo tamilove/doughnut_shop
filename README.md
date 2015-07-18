@@ -4,6 +4,8 @@ I would cordially like to thank the following sigtes for unknowing allowing me t
 http://haltenny.deviantart.com/art/Steampunk-Doughnut-Machine-202423480
 http://www.fontspace.com/bosil-unique-fonts/bu-oscar-diggs
 
+** my "About Us" page was stolen from: http://oobleck.org/steam/
+
 colours: #6d3f32
 #FFBF44
 #723612

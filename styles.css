@@ -46,6 +46,11 @@ body {
   top:350px;
 }
 
+#person{
+  position: absolute;
+  bottom: -10px;
+  left: 28px;
+}
 @font-face {
     font-family: headlineFont;
     src: url(fonts/baskervalley_old_face.ttf) format("truetype");
@@ -54,14 +59,3 @@ h1.customfont {
     font-family: headlineFont, Verdana, Tahoma;
 }
 
-
-/*#6d3f32 - chocolate
-#FFBF44 - gold
-
-
-#FEDD9C - cream
-
-background: #9f7f52 sandlewood
-#666666 gray
-#dddddd - light gray
-#C49231*/ dark gold

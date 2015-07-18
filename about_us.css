@@ -1,0 +1,17 @@
+
+    body {
+    background: #ddd url('http://www.theinspirationgallery.com/wallpaper/damask/images/wp_damask_126.jpg') fixed;
+    font: 14px / 1.5em Georgia, serif;
+    position: relative;
+  }
+  #wrapper {
+    background: url('./images/old_paper.png');
+    margin: 0;
+    padding:  2em 0 0;
+  }
+
+  #person{
+  position: absolute;
+  bottom: -10px;
+  left: 28px;
+
