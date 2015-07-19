@@ -1,0 +1,69 @@
+
+body {
+  background: #ddd url('http://www.theinspirationgallery.com/wallpaper/damask/images/wp_damask_126.jpg') fixed;
+  font: 14px / 1.5em Georgia, serif;
+  position: relative;
+}
+/*#wrapper {
+  background: transparent url('images.old_paper.png/') repeat-x fixed;
+  margin:0;
+  z-index: 50;
+  padding: 2em 0 0;
+  width: 100%;
+}*/
+#person{
+position: fixed;
+bottom: 10px;
+left: 28px;
+z-index: 50;
+}
+.shrink:hover {
+  -webkit-transform: scale(0.8);
+  -ms-transform: scale(0.8);
+  transform: scale(0.8);
+}
+
+#body {
+  margin:0;
+  font-family:sans-serif;
+  color:#f25252;
+  background:#f7f7f7;
+}
+h1 {
+  font-size:11rem;
+  position:absolute;
+  transform:translate(0%,0%);
+  margin:0;
+}
+h1:nth-of-type(1){
+  animation: range 10s infinite;
+}
+h1:nth-of-type(2){
+  left:50%;
+  top:50%;
+  animation: size 10s infinite;
+}
+h1:nth-of-type(3){
+  animation: range2 10s infinite;
+}
+@keyframes range {
+  0%  {left:42%;top:51%;font-size:11rem;}
+  25% {left:51%;top:40%;font-size:4.5rem;}
+  50% {left:58%;top:51%;font-size:11rem;}
+  75% {left:51%;top:60%;font-size:4.5rem;}
+  100%{left:42%;top:51%;font-size:11rem;}
+}
+@keyframes range2 {
+  0%  {left:58%;top:51%;font-size:11rem;}
+  25% {left:51%;top:60%;font-size:4.5rem;}
+  50% {left:42%;top:51%;font-size:11rem;}
+  75% {left:51%;top:40%;font-size:4.5rem;}
+  100%{left:58%;top:51%;font-size:11rem;}
+}
+@keyframes size {
+  0%  {font-size:88rem;}
+  25% {font-size:26rem;}
+  50% {font-size:88rem;}
+  75% {font-size:26rem;}
+  100%{font-size:88rem;}
+}
